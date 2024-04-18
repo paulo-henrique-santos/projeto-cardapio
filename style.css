@@ -1,0 +1,299 @@
+/* DOCUMENTO CSS - Projeto Cardápio */
+
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Wellfleet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+}
+
+#linha_topo {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header {
+    background-image: linear-gradient(to bottom, yellow, orange);
+    height: 147px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+header #logo {
+    width: 165px;
+    height: 125px;
+    background-color: transparent;
+    margin-right: 5px;
+}
+
+header h1 {
+    font-size: 35px;
+    font-family: "Limelight", sans-serif;
+}
+
+header img {
+    height: 125px;
+    width: 140px;
+}
+
+#menu {
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+}
+
+#menu ul li a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+#card {
+   width: 250px;
+   height: 300px;
+   border: 3px solid black;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 0px;
+   box-shadow: 5px 5px 10px black;
+   background-color: rgb(255, 255, 255);
+   border-radius: 20px;
+}
+
+#card h2 {
+    font-family: "Rubik Mono One", monospace;
+}
+
+#card p {
+    font-family: "Wellfleet", monospace;
+}
+
+#card h3 {
+    font-family: "Nova Mono", monospace;
+} 
+
+#conteudo {
+    align-items: center;
+    text-align: center;
+}
+
+#conteudo img {
+    height: 135px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-evenly;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 450px;
+}
+
+#parte1 {
+    height: 100vh;
+    background-color: #603434;
+    max-height: 1440px;
+    padding-top: 200px;
+    align-content: space-evenly;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: wrap;
+    display: flex;
+}
+
+#parte1 h1 {
+    color: white;
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+
+#parte2 {
+    height: 100vh;
+    background-color: #c63e2d;
+    max-height: 650px;
+    padding-top: 100px;
+    align-content: space-evenly;
+    justify-content: center;
+    flex-flow: row wrap;
+    display: flex;
+}
+
+#parte2 h1 {
+    color: white;
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+
+#parte3 {
+    height: 100vh;
+    background-color: #fcce45;
+    max-height: 1440px;
+    align-content: space-evenly;
+    justify-content: center;
+    flex-flow: row wrap;
+    display: flex;
+}
+
+#parte3 h1 {
+    color: white;
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+
+#parte4 {
+    height: 100vh;
+    padding-top: 10px;
+    background-color:#63372d;
+    max-height: 1440px;
+    align-content: space-evenly;
+    justify-content: center;
+    flex-flow: row wrap;
+    display: flex;
+}
+
+#parte4 h1 {
+    color: white;
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+
+#rodape {
+    background-image: linear-gradient(to top, orange, yellow);
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+#rodape h1 {
+    font-size: 35px;
+    font-family: "Limelight", sans-serif;
+}
+
+#cardr {
+    width: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0px;
+    box-shadow: 5px 5px 10px black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+ }
+ 
+ #cardr h2 {
+     font-family: "Rubik Mono One", monospace;
+ }
+ 
+ #cardr h3 {
+    font-family: "Wellfleet", monospace;
+}
+
+ #cardr p {
+     font-family: "Wellfleet", monospace;
+ }
+ 
+ #cardr {
+     font-family: "Nova Mono", monospace;
+ }
+
+ #cardm {
+    width: 350px;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0px;
+    box-shadow: 5px 5px 10px black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+ }
+ 
+ #cardm h2 {
+     font-family: "Rubik Mono One", monospace;
+ }
+ 
+ #cardm p {
+     font-family: "Wellfleet", monospace;
+ }
+ 
+ #cardm img {
+     height: 250px;
+ } 
+
+ #cardl {
+    width: 320px;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0px;
+    box-shadow: 5px 5px 10px black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+ }
+ 
+ #cardl h2 {
+     font-family: "Rubik Mono One", monospace;
+ }
+ 
+ #cardl p {
+     font-family: "Wellfleet", monospace;
+ }
+ 
+ #cardl {
+     font-family: "Nova Mono", monospace;
+ }
+
+.foto1 {
+    height: 50px;
+}
+
+.foto2 {
+    height: 50px;
+}
+
+.foto3 {
+    height: 50px;
+}
+
+.foto4 {
+    height: 50px;
+}
+
+.logo {
+    width: 130px;
+    height: 130px;
+    background-color: transparent;
+}
