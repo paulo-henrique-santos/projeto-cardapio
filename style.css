@@ -191,7 +191,7 @@ section {
 
 #rodape {
     background-image: linear-gradient(to top, orange, yellow);
-    height: 500px;
+    height: 575px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -203,8 +203,10 @@ section {
     font-family: "Limelight", sans-serif;
 }
 
+/* PARTE DOS HORÁRIOS */
+
 #cardr {
-    width: 200px;
+    width: 375px;
     border: 3px solid black;
     padding: 10px;
     margin: 10px;
@@ -226,9 +228,12 @@ section {
      font-family: "Wellfleet", monospace;
  }
  
- #cardr {
+ #cardr ul li {
      font-family: "Nova Mono", monospace;
+     font-size: 20px;
  }
+
+ /* PARTE DO MAPA */
 
  #cardm {
     width: 350px;
@@ -245,13 +250,15 @@ section {
      font-family: "Rubik Mono One", monospace;
  }
  
- #cardm p {
+ #cardm h2 {
      font-family: "Wellfleet", monospace;
  }
  
  #cardm img {
-     height: 250px;
- } 
+     height: 235px;
+ }
+
+ /* PARTE DO LOGO */
 
  #cardl {
     width: 320px;
