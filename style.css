@@ -78,15 +78,15 @@ header img {
 }
 
 #card {
-   width: 250px;
-   height: 300px;
-   border: 3px solid black;
-   padding: 10px;
-   margin: 10px;
-   border-radius: 0px;
-   box-shadow: 5px 5px 10px black;
-   background-color: rgb(255, 255, 255);
-   border-radius: 20px;
+    width: 250px;
+    height: 300px;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0px;
+    box-shadow: 5px 5px 10px black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
 }
 
 #card h2 {
@@ -99,7 +99,7 @@ header img {
 
 #card h3 {
     font-family: "Nova Mono", monospace;
-} 
+}
 
 #conteudo {
     align-items: center;
@@ -175,7 +175,7 @@ section {
 #parte4 {
     height: 100vh;
     padding-top: 10px;
-    background-color:#63372d;
+    background-color: #63372d;
     max-height: 1440px;
     align-content: space-evenly;
     justify-content: center;
@@ -214,28 +214,28 @@ section {
     box-shadow: 5px 5px 10px black;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
- }
- 
- #cardr h2 {
-     font-family: "Rubik Mono One", monospace;
- }
- 
- #cardr h3 {
+}
+
+#cardr h2 {
+    font-family: "Rubik Mono One", monospace;
+}
+
+#cardr h3 {
     font-family: "Wellfleet", monospace;
 }
 
- #cardr p {
-     font-family: "Wellfleet", monospace;
- }
- 
- #cardr ul li {
-     font-family: "Nova Mono", monospace;
-     font-size: 20px;
- }
+#cardr p {
+    font-family: "Wellfleet", monospace;
+}
 
- /* PARTE DO MAPA */
+#cardr ul li {
+    font-family: "Nova Mono", monospace;
+    font-size: 20px;
+}
 
- #cardm {
+/* PARTE DO MAPA */
+
+#cardm {
     width: 350px;
     border: 3px solid black;
     padding: 10px;
@@ -244,23 +244,23 @@ section {
     box-shadow: 5px 5px 10px black;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
- }
- 
- #cardm h2 {
-     font-family: "Rubik Mono One", monospace;
- }
- 
- #cardm h2 {
-     font-family: "Wellfleet", monospace;
- }
- 
- #cardm img {
-     height: 235px;
- }
+}
 
- /* PARTE DO LOGO */
+#cardm h2 {
+    font-family: "Rubik Mono One", monospace;
+}
 
- #cardl {
+#cardm h2 {
+    font-family: "Wellfleet", monospace;
+}
+
+#cardm img {
+    height: 235px;
+}
+
+/* PARTE DO LOGO */
+
+#cardl {
     width: 320px;
     border: 3px solid black;
     padding: 10px;
@@ -269,19 +269,19 @@ section {
     box-shadow: 5px 5px 10px black;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
- }
- 
- #cardl h2 {
-     font-family: "Rubik Mono One", monospace;
- }
- 
- #cardl p {
-     font-family: "Wellfleet", monospace;
- }
- 
- #cardl {
-     font-family: "Nova Mono", monospace;
- }
+}
+
+#cardl h2 {
+    font-family: "Rubik Mono One", monospace;
+}
+
+#cardl p {
+    font-family: "Wellfleet", monospace;
+}
+
+#cardl {
+    font-family: "Nova Mono", monospace;
+}
 
 .foto1 {
     height: 50px;
